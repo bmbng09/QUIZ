@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YahQUIZZ... </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div align="center">
+        <h2>YahQUIZZZ..</h2>
+        <div class="form-container">
+            <form id="Form">
+                <input type="text" name="Kode" id="Kode" placeholder="Masukan Kode">
+                <p id="error-Kode" class="peringatan"></p>
+                <button class="button" type="button" onclick="validate()">Kirim</button>
+            </form>
+        </div>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>

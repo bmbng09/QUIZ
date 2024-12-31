@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YahQUIZZ</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="quiz-container">
+    
+        <section id="start-screen" class="screen active">
+            <h1>Selamat Dalam Di YahQUIZZ...</h1>
+            <div class="rules">
+                <h3>Peraturan</h3>
+                <ul>
+                    <li>Setiap soal harus dijawab satu per satu.</li>
+                    <li>Jawaban tidak bisa diubah setelah soal dijawab.</li>
+                    <li>Anda memiliki waktu 30 detik untuk setiap soal.</li>
+                    <li>Nilai total akan dihitung berdasarkan jawaban benar.</li>
+                    <li>Pilih jawaban yang Anda anggap benar sebelum waktu habis.</li>
+                </ul>
+            </div>
+            <button onclick="startQuiz()">Mulai Quiz</button>
+        </section>
+
+        
+        <section id="quiz-screen" class="screen">
+            <h2 id="question-title"></h2>
+            <div id="options-container"></div>
+            <button onclick="nextQuestion()">Lanjut</button>
+        </section>
+
+      
+        <section id="result-screen" class="screen">
+            <h2>Hasil mu:</h2>
+            <p id="score-display"></p>
+            <button onclick="restartQuiz()">Coba Lagi</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
